@@ -74,6 +74,7 @@ public class Address {
 		this.id = id;
 		this.owner = owner;
 		this.buildingNum = buildingNum;
+		this.aptNum = "None";
 		this.streetName = streetName;
 		this.city = city;
 		this.state = state;
@@ -114,6 +115,7 @@ public class Address {
 		super();
 		this.owner = owner;
 		this.buildingNum = buildingNum;
+		this.aptNum = "None";
 		this.streetName = streetName;
 		this.city = city;
 		this.state = state;
@@ -173,7 +175,11 @@ public class Address {
 	 * @param aptNum the aptNum to set
 	 */
 	public void setAptNum(String aptNum) {
-		this.aptNum = aptNum;
+		if (aptNum == null) {
+			this.aptNum = "None";
+		} else {
+			this.aptNum = aptNum;
+		}
 	}
 
 	/**

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Address Book Home</title>
+</head>
+<body>
+	<form action="addAddressServlet" method="post">
+		Owner Name: <input type="text" name="owner">
+		<br />
+		Building/House Number: <input type="text" name="bn">
+		<br />
+		Apartment Number(if needed): <input type="text" name="an">
+		<br />
+		Street Name: <input type="text" name="sn">
+		<br /> 
+		City: <input type="text" name="city"> 
+		<br />
+		State: <input type="text" name="state"> 
+		<br />
+		Zip: <input type="text" name="zip"> 
+		<br />
+		<input type="submit" value="Add Address">
+	</form>
+	<br />
+	<a href="viewAllAddressesServlet">View all addresses</a>
+	<br />
+	<a href="viewAllListsServlet">View all address lists</a>
+	<br />
+	<a href="addAddressesForListServlet">Create a new address list</a>
+</body>
+</html>
