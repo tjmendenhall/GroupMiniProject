@@ -31,9 +31,9 @@
 				</c:forEach>
 			</c:forEach>
 		</table>
-		<input type="submit" value="edit" name="doThisToList"> 
-		<input type="submit" value="delete" name="doThisToList"> 
-		<input type="submit" value="add" name="doThisToList">
+		<input type="submit" value="Edit" name="doThisToList"> 
+		<input type="submit" value="Delete" name="doThisToList"> 
+		<input type="submit" value="Add" name="doThisToList">
 
 	</form>
 	<a href="addAddressesForListServlet">Create a new list</a>

@@ -19,7 +19,7 @@
 			<c:forEach items="${requestScope.allAddresses}" var="currentaddress">
 				<option value="${currentaddress.id}">${currentaddress.owner} ${currentaddress.buildingNum} ${currentaddress.aptNum} ${currentaddress.streetName} ${currentaddress.city} ${currentaddress.state} ${currentaddress.zip}</option>
 			</c:forEach>
-		</select> <br /> <input type="submit" value="Edit List and Add Addresses">
+		</select> <br /> <input type="submit" value="Edit List and Add Address">
 	</form>
 	<a href="index.html">Home</a>
 </body>
